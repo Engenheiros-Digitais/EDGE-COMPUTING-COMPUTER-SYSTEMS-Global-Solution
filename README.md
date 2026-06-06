@@ -1,7 +1,7 @@
 # FireWatch — Edge Computing
 
 ## Descrição do projeto
-Sistema de monitoramento de risco de queimadas desenvolvido com Arduino Uno no simulador Tinkercad. O projeto utiliza um sensor de temperatura TMP36 e um potenciômetro para simular o índice de seca, calculando um score de risco e classificando em três níveis: controlado, moderado e crítico. A solução demonstra como uma estação local pode processar dados ambientais e emitir alertas sem depender de conectividade externa.
+Sistema de monitoramento de risco de queimadas desenvolvido com Arduino Uno no simulador Tinkercad. O projeto utiliza um sensor de temperatura TMP36(como substituto ao DHT22) e um potenciômetro para simular o índice de seca, calculando um score de risco e classificando em três níveis: controlado, moderado e crítico. A solução demonstra como uma estação local pode processar dados ambientais e emitir alertas sem depender de conectividade externa.
 
 ## Objetivo da solução
 Aplicar Edge Computing para classificar o risco de queimadas em tempo real com base em temperatura e índice de seca, acionando alertas visuais (LEDs) e sonoros (buzzer) conforme o nível de risco identificado, sem depender de infraestrutura de nuvem ou internet.
